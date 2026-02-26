@@ -15,3 +15,7 @@ output "pri_ip" {
     value = module.catalogue.private_ip
   
 }
+
+output "id"  {
+    value = module.catalogue.instances_id
+}
